@@ -9,5 +9,7 @@ func main() {
 	fmt.Println(Fnumber + Fsecond)
 	fmt.Println(Fnumber - Fsecond)
 	fmt.Println(Fnumber / Fsecond)
+	fmt.Println(Fnumber * Fsecond)
+	fmt.Println(Fnumber % Fsecond)
 
 }
