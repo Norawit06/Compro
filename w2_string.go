@@ -8,5 +8,6 @@ func main() {
 	P3 := P1 + P2
 	fmt.Println(P1)
 	fmt.Println(P2)
-
+	fmt.Println(P3)
+	fmt.Println(P3[0:5])
 }
