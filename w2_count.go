@@ -12,4 +12,5 @@ func main() {
 	s := "Hi there!"
 	fmt.Println("The length of s is", len(s))
 	fmt.Println("The first symbol of s is", string(s[0]))
+	fmt.Println("The last symbol of s is", string(s[len(s)-1]))
 }
