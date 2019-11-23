@@ -10,6 +10,8 @@ const s string = "constant"
 func main() {
 	fmt.Println(s)
 
+	const p = "roomer"
+
 	const n = 5000000
 
 	const d = 3e20 / n
@@ -18,5 +20,7 @@ func main() {
 	fmt.Println(int64(d))
 
 	fmt.Println(math.Sin(n))
+
+	fmt.Println(p)
 
 }
