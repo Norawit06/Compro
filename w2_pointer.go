@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	var i int
-	var p *int
+	var i string
+	var p *string
 
-	i = 10
+	i = "Earth"
 
 	fmt.Printf("i = %c\n", i)
 	fmt.Printf("address of i %v\n", &i)
