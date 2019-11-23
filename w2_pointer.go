@@ -8,4 +8,6 @@ func main() {
 	i = 1
 
 	fmt.Printf("i = %d", i)
+	fmt.Printf("address of i %v\n", &i)
+
 }
