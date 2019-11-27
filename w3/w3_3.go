@@ -10,6 +10,6 @@ func main() {
 	fmt.Println(`Name`, text)
 	fmt.Println("input your age :")
 	fmt.Scan(&age)
-	fmt.Printf("your age :%d ", age)
+	fmt.Printf("your age :%d \n", age)
 
 }
