@@ -14,5 +14,7 @@ func fib(n int) int {
 
 func main() {
 	fmt.Printf("fib(10)=%d\n", fib(10))
+	fmt.Printf("fib(10)=%d\n", fib(11))
+	fmt.Printf("fib(10)=%d\n", fib(12))
 
 }
