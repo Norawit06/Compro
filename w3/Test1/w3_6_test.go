@@ -11,3 +11,10 @@ func TestPlus(t *testing.T) {
 		t.Errorf("Expected result of 3, but it was  %v instead ", a)
 	}
 }
+
+func TestPrism(t *testing.T) {
+	a := prism(4, 2, 2)
+	if a != 16 {
+		t.Errorf("Expected result of 3, but it was  %v instead ", a)
+	}
+}
