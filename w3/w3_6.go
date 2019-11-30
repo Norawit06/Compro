@@ -13,3 +13,13 @@ func prism(length, width, height int) int {
 func init() {
 	fmt.Println("init ...")
 }
+
+func main() {
+	fmt.Println("Week 4 Start ...")
+	fmt.Println("-----------------------------")
+
+	a, b := 1, 2
+	res := plus(a, b)
+	fmt.Println("1 + 2 =", res)
+
+}
