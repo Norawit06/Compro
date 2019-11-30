@@ -6,7 +6,7 @@ import (
 
 func main() {
 	printFirst()
-	printFinish()
+	defer printFinish() //ลองเพิ่ม defer
 	printSecond()
 
 }
