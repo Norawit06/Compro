@@ -5,9 +5,9 @@ import (
 )
 
 func main() {
-	printFirst()
+	defer printFirst()
 	defer printFinish() //ลองเพิ่ม defer
-	printSecond()
+	defer printSecond()
 
 }
 
