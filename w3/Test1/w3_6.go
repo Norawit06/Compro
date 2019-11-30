@@ -1,12 +1,14 @@
 package main
 
-import ("fmt")
+import (
+	"fmt"
+)
 
-func Plus(a int, b int) int {
+func plus(a int, b int) int {
 	return a + b
 }
 
-func Prism(length, width, height int) int {
+func prism(length, width, height int) int {
 	return length * width * height
 }
 
@@ -19,10 +21,10 @@ func main() {
 	fmt.Println("-----------------------------")
 
 	a, b := 1, 2
-	res := Plus(a, b)
+	res := plus(a, b)
 	fmt.Println("1 + 2 =", res)
 
-	res = Prism(4, 2, 2)
+	res = prism(4, 2, 2)
 	fmt.Println("Rectangular prism=", res)
 
 	fmt.Println("------------------------------")
