@@ -14,7 +14,7 @@ func TestPlus(t *testing.T) {
 
 func TestPrism(t *testing.T) {
 	a := prism(4, 2, 2)
-	if a != 20 {
+	if a != 28 {
 		t.Errorf("Expected result of 3, but it was  %v instead ", a)
 	}
 }
