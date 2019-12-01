@@ -1,6 +1,8 @@
 package main
 
-func TestInput1ShouldBeDisplay1(t *test.T) {
+import "testing"
+
+func testInput1ShouldBeDisplay1(t *testing.T) {
 
 	v := FizzBuzz(1)
 
