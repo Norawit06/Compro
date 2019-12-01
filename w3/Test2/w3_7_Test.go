@@ -1,12 +1,14 @@
-package main
+package test2
 
-import "testing"
+import (
+	"testing"
+)
 
-func testInput1ShouldBeDisplay1(t *testing.T) {
+func TestInput1ShouldBeDisplay1(t *testing.T) {
 
 	v := FizzBuzz(1)
 
 	if "1" != v {
-		t.Error("Fizzbuzz of 1 Should be `1` but have", v)
+		t.Error("fizzbuzz of 1 should be '1' but have", v)
 	}
 }
