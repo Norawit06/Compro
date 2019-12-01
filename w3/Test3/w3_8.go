@@ -10,3 +10,9 @@ func fib(n int) int {
 		return 1
 	}
 	return fib(n-1) + fib(n-2)
+
+	func main() {
+		fmt.Printf("fib(10)=%d\n", fib(10))
+		fmt.Printf("fib(10)=%d\n", fib(11))
+		fmt.Printf("fib(10)=%d\n", fib(12))
+	}
