@@ -1,4 +1,4 @@
-package test2
+package main
 
 func FizzBuzz(number int) string {
 	return "1"
