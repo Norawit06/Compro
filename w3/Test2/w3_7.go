@@ -1,12 +1,5 @@
-package main
+package test2
 
-func fizzBuzz(number int) string {
-
-	return ""
-}
-
-func main() {
-	res := fizzBuzz(2)
-
-	println("Fizzbuzz is ", res)
+func FizzBuzz(number int) string {
+	return "1"
 }
