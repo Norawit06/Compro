@@ -11,8 +11,9 @@ func fib(n int) int {
 	}
 	return fib(n-1) + fib(n-2)
 
-	func main() {
-		fmt.Printf("fib(10)=%d\n", fib(10))
-		fmt.Printf("fib(10)=%d\n", fib(11))
-		fmt.Printf("fib(10)=%d\n", fib(12))
-	}
+}
+func main() {
+	fmt.Printf("fib(10)=%d\n", fib(10))
+	fmt.Printf("fib(11)=%d\n", fib(11))
+	fmt.Printf("fib(12)=%d\n", fib(12))
+}
