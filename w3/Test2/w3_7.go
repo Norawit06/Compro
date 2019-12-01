@@ -1,8 +1,12 @@
-package Test2
+package main
 
-import "fmt"
+func fizzBuzz(number int) string {
 
-func FizzBuzz(number int) string{
+	return ""
+}
 
-	return "":
+func main() {
+	res := fizzBuzz(2)
+
+	println("Fizzbuzz is ", res)
 }
