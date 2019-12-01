@@ -1,6 +1,6 @@
-package Test2
+package main
 
-func Testinput1ShouldBeDisplay1(t *test.T) {
+func TestInput1ShouldBeDisplay1(t *test.T) {
 
 	v := FizzBuzz(1)
 
