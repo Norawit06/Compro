@@ -11,7 +11,8 @@ func TestFib(t *testing.T) {
 		args args
 		want int
 	}{
-		// TODO: Add test cases.
+		{name: "test case 1", args: args{0}, want: 0},
+		{name: "test case 1", args: args{0}, want: 0},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
