@@ -3,14 +3,17 @@ package main
 import "fmt"
 
 func main() {
-	var names [5]string
+	var name [5]string
 
-	names[0] = "pine"
-	names[1] = "app"
-	names[2] = "ple"
-	names[3] = "pen"
-	names[4] = "cil"
+	name[0] = "pine"
+	name[1] = "app"
+	name[2] = "ple"
+	name[3] = "pen"
+	name[4] = "cil"
 
-	fmt.Println(names[0])
+	fmt.Println(name[0])
 
+	names := [3]string{"pine", "app", "ple"}
+	_ = names
+	fmt.Println(name[0], name[1], name[2])
 }
