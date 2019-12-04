@@ -1,15 +1,16 @@
-packgae main
+package main
 
 import "fmt"
 
-func main(){
-	var name [5]string
+func main() {
+	var names [5]string
 
-	names[0]
-	names[1]
-	names[2]
-	names[3]
-	names[4]
+	names[0] = "pine"
+	names[1] = "app"
+	names[2] = "ple"
+	names[3] = "pen"
+	names[4] = "cil"
 
+	fmt.Println(names[0])
 
 }
