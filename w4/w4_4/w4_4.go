@@ -6,6 +6,8 @@ func main() {
 	name("Norawit")
 	math(7, 8)
 	nameok("")
+	result := math2(50 * 50)
+	fmt.Println(result * 500)
 
 }
 
