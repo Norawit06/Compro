@@ -21,3 +21,8 @@ func math(a int, b int) {
 func nameok(str string) {
 	fmt.Println("ok")
 }
+
+func math2(a int, b int) int {
+	output := (a + b)
+	return output
+}
