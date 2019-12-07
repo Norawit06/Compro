@@ -5,6 +5,6 @@ func main() {
 }
 
 func hello() string {
-	return "Hello Per"
+	return "Hello Per!"
 
 }
