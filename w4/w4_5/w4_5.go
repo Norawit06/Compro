@@ -4,7 +4,7 @@ func main() {
 
 }
 
-func Hello() string {
+func hello() string {
 	return "Hello Per"
 
 }
