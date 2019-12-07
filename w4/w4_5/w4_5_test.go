@@ -6,6 +6,6 @@ func TestHello(t *testing.T) {
 	expected := "Hello Per!"
 	actual := hello()
 	if actual != expected {
-		t.Error("Test failed")
+		t.Errorf("Test failed, expected: '%s, got: '%s'", expected, actual)
 	}
 }
