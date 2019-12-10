@@ -7,7 +7,7 @@ func TestSum(t *testing.T) {
 	expected := 15
 	actual := Sum(number)
 
-	if actual != expected{
-		t.Errorf("expected the sum of %v to be %d but instead got %d!", number,expected,actual
+	if actual != expected {
+		t.Errorf("expected the sum of %v to be %d but instead got %d!", number, expected, actual)
 	}
 }
