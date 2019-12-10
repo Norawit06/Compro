@@ -7,7 +7,7 @@ import (
 
 func TestSum(t *testing.T) {
 	t.Run("[1,2,3,4,5]", testSumFunc([]int{1, 2, 3, 4, 10, 5}, 15))
-	t.Run("[1,2,3,4,-5]", testSumFunc([]int{1, 2, 3, 4, -1}, 5))
+	t.Run("[1,2,3,4,-5]", testSumFunc([]int{1, 2, 3, 4, -5}, 5))
 }
 
 func testSumFunc(numbers []int, expected int) func(*testing.T) {
