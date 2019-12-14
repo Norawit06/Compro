@@ -8,5 +8,5 @@ func addMult(a, b int) (int, int) {
 
 func main() {
 	addRes, multRes := addMult(7, 5)
-	fmt.Println(addRes, multRes)
+	fmt.Println(addResz)
 }
