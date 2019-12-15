@@ -13,3 +13,4 @@ func main() {
 	s := a(5, 6)
 	fmt.Println("Sum", s)
 }
+ป
