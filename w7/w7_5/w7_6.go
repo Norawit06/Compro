@@ -16,4 +16,7 @@ func main() {
 	}
 
 	fmt.Println("Employee 3", emp3)
+
+	var emp4 Employee
+	fmt.Println("Employee 4", emp4)
 }
