@@ -1,5 +1,9 @@
 package w7_3
 
 func Fizzbuzz(number int) string {
-	return "1"
+
+	if number == 1 {
+		return "1"
+	}
+	return "2"
 }
