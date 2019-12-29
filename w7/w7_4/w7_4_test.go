@@ -11,7 +11,7 @@ func TestPlus(t *testing.T) {
 }
 
 func TestPrism(t *testing.T) {
-	a := prism(4, 2, 2)
+	a := prism(4, 2, 6)
 
 	if a != 16 {
 		t.Errorf("want 16, got %v ", a)
