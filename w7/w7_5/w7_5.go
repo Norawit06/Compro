@@ -15,4 +15,7 @@ func main() {
 		salary      1500,
 		lastName    "Anderson",
 	}
+	emp2 := Employee{"Jim", "paul", 29, 9000}
+
+	
 }
